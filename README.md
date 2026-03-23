@@ -1,7 +1,7 @@
 # RDX - Robot Driver X 
 
 <p align="center">
-    <img src="documentation/sketches/1_front_view.png" width=80% />
+    <img src="documentation/sketches/2026_03_23_1__front_view.png" width=80% />
 </p>
 
 _(Early demo sketch)_

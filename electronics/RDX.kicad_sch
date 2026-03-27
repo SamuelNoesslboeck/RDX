@@ -8972,7 +8972,7 @@
 		)
 		(uuid "08bfeaf0-9e01-4fa8-b93e-29e8ca2512fc")
 	)
-	(text "PANEL III - Power panel"
+	(text "A4 - PANEL III - Power panel"
 		(exclude_from_sim no)
 		(at 20.32 276.606 0)
 		(effects
@@ -9014,7 +9014,7 @@
 		)
 		(uuid "23694e79-08dd-4be6-85a3-83afcfdced87")
 	)
-	(text "PANEL I - Stepper Panel"
+	(text "A2 - PANEL I - Stepper Panel"
 		(exclude_from_sim no)
 		(at 20.32 21.844 0)
 		(effects
@@ -9116,7 +9116,7 @@
 		)
 		(uuid "905bb031-c8c6-4e48-82b3-b609f948e1b1")
 	)
-	(text "PANEL II - Control panel"
+	(text "A3 - PANEL II - Control panel"
 		(exclude_from_sim no)
 		(at 299.72 22.352 0)
 		(effects
@@ -9148,7 +9148,7 @@
 		)
 		(uuid "c1304b32-fd2d-4469-837b-1d95d9054813")
 	)
-	(text "The controller includes 3 high performace stepper drivers\nthat can be calibrated for microstepping manually\n\nSee the table for pin mappings to the RPi GPIOs"
+	(text "The controller includes 4 high performace stepper drivers\nthat can be calibrated for microstepping manually\n\nSee the table for pin mappings to the RPi GPIOs"
 		(exclude_from_sim no)
 		(at 121.412 168.91 0)
 		(effects
@@ -9168,7 +9168,7 @@
 		)
 		(uuid "d10f2970-cc2c-489e-aef7-8e99c561bd2e")
 	)
-	(text "PSU.J12 (36V)"
+	(text "A4.J12 (36V)"
 		(exclude_from_sim no)
 		(at 67.818 85.852 0)
 		(effects
@@ -9178,7 +9178,7 @@
 		)
 		(uuid "d1feb538-633a-4362-8652-0127a018f66b")
 	)
-	(text "STEP.J5 (5V)"
+	(text "A3.J2 (5V)"
 		(exclude_from_sim no)
 		(at 49.53 85.598 0)
 		(effects
@@ -9584,6 +9584,16 @@
 		)
 		(uuid "03c34544-690e-48e6-b74e-e9da92fc0fb4")
 	)
+	(polyline
+		(pts
+			(xy 19.05 220.98) (xy 54.61 220.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "04a6682c-3757-415a-98f1-ffe9e186a2ec")
+	)
 	(wire
 		(pts
 			(xy 363.22 83.82) (xy 367.03 83.82)
@@ -9693,6 +9703,16 @@
 			(type default)
 		)
 		(uuid "0ecc76ad-321b-4bb9-a4ac-501c5ad09726")
+	)
+	(polyline
+		(pts
+			(xy 54.61 186.69) (xy 54.61 191.77)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0eee5839-8e56-4d23-9f7d-c6fcd41ba005")
 	)
 	(wire
 		(pts
@@ -11323,6 +11343,16 @@
 			(type default)
 		)
 		(uuid "778a41e7-d389-4231-a7cd-bbc6d8eb60d7")
+	)
+	(polyline
+		(pts
+			(xy 54.61 201.93) (xy 54.61 220.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "78a717cc-d670-4e9c-992b-aa4727e9099c")
 	)
 	(wire
 		(pts
@@ -17476,7 +17506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1988199d-80f3-4eed-bc65-a490f82bb2e8")
-		(property "Reference" "PSU.J02"
+		(property "Reference" "A4.J02"
 			(at 99.06 239.776 0)
 			(effects
 				(font
@@ -17532,7 +17562,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.J02")
+					(reference "A4.J02")
 					(unit 1)
 				)
 			)
@@ -18199,7 +18229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ce34ccf-b767-4347-a41d-110cb3933cd0")
-		(property "Reference" "STEP.J2"
+		(property "Reference" "A2.J1_2"
 			(at 106.172 69.85 90)
 			(effects
 				(font
@@ -18259,7 +18289,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.J2")
+					(reference "A2.J1_2")
 					(unit 1)
 				)
 			)
@@ -18275,7 +18305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40fa1025-4309-41a7-a2a3-cc07e4894203")
-		(property "Reference" "STEP.U4"
+		(property "Reference" "A2.U1_4"
 			(at 137.668 109.982 0)
 			(effects
 				(font
@@ -18360,7 +18390,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.U4")
+					(reference "A2.U1_4")
 					(unit 1)
 				)
 			)
@@ -18707,7 +18737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55d9d36a-2483-487d-bfcb-24b4af7f8fe2")
-		(property "Reference" "STEP.J1"
+		(property "Reference" "A2.J1_1"
 			(at 37.592 69.85 90)
 			(effects
 				(font
@@ -18767,7 +18797,7 @@
 		(instances
 			(project ""
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.J1")
+					(reference "A2.J1_1")
 					(unit 1)
 				)
 			)
@@ -18849,7 +18879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d5a6111-f05d-48a1-8b18-d2ff38be33ea")
-		(property "Reference" "PSU.J22"
+		(property "Reference" "A4.J22"
 			(at 137.16 214.63 0)
 			(effects
 				(font
@@ -18905,7 +18935,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.J22")
+					(reference "A4.J22")
 					(unit 1)
 				)
 			)
@@ -20165,7 +20195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e0c1a9c-f09e-4787-a982-85e141cdb48a")
-		(property "Reference" "PSU.J01"
+		(property "Reference" "A4.J01"
 			(at 99.06 229.616 0)
 			(effects
 				(font
@@ -20221,7 +20251,7 @@
 		(instances
 			(project ""
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.J01")
+					(reference "A4.J01")
 					(unit 1)
 				)
 			)
@@ -20512,7 +20542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a203f056-6c39-44a2-8551-8b136d27ed58")
-		(property "Reference" "STEP.J3"
+		(property "Reference" "A2.J1_3"
 			(at 37.592 142.24 90)
 			(effects
 				(font
@@ -20572,7 +20602,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.J3")
+					(reference "A2.J1_3")
 					(unit 1)
 				)
 			)
@@ -21278,7 +21308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4064115-395e-457b-b669-a351600c5e09")
-		(property "Reference" "PSU.J21"
+		(property "Reference" "A4.J21"
 			(at 139.7 204.47 0)
 			(effects
 				(font
@@ -21334,7 +21364,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.J21")
+					(reference "A4.J21")
 					(unit 1)
 				)
 			)
@@ -21846,7 +21876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cea58c1d-6357-4a9a-be03-ef4ff7d4006f")
-		(property "Reference" "PSU.PS11"
+		(property "Reference" "A4.PS11"
 			(at 110.49 199.39 0)
 			(effects
 				(font
@@ -21908,7 +21938,7 @@
 		(instances
 			(project ""
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.PS11")
+					(reference "A4.PS11")
 					(unit 1)
 				)
 			)
@@ -21997,7 +22027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5007130-a0ab-404a-8802-10f4cf1fa969")
-		(property "Reference" "PSU.PS13"
+		(property "Reference" "A4.PS13"
 			(at 125.73 248.92 0)
 			(effects
 				(font
@@ -22059,7 +22089,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.PS13")
+					(reference "A4.PS13")
 					(unit 1)
 				)
 			)
@@ -22586,7 +22616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7bd62d4-fab0-4be5-8d44-89b22e607581")
-		(property "Reference" "STEP.U3"
+		(property "Reference" "A2.U1_3"
 			(at 69.088 109.982 0)
 			(effects
 				(font
@@ -22671,7 +22701,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.U3")
+					(reference "A2.U1_3")
 					(unit 1)
 				)
 			)
@@ -22687,7 +22717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ead24605-04d4-49a6-b2e4-d8884be3c51d")
-		(property "Reference" "STEP.J4"
+		(property "Reference" "A2.J1_4"
 			(at 106.172 142.24 90)
 			(effects
 				(font
@@ -22747,7 +22777,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.J4")
+					(reference "A2.J1_4")
 					(unit 1)
 				)
 			)
@@ -22763,7 +22793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb39c922-da3f-4bdc-9a6b-ad7a1e2cf488")
-		(property "Reference" "PSU.J12"
+		(property "Reference" "A4.J12"
 			(at 95.504 258.318 90)
 			(effects
 				(font
@@ -22828,7 +22858,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.J12")
+					(reference "A4.J12")
 					(unit 1)
 				)
 			)
@@ -22975,7 +23005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edb22210-cc7a-4778-b59e-f214741c5306")
-		(property "Reference" "PSU.PS1"
+		(property "Reference" "A4.PS1"
 			(at 67.31 189.23 0)
 			(effects
 				(font
@@ -23034,7 +23064,7 @@
 		(instances
 			(project ""
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.PS1")
+					(reference "A4.PS1")
 					(unit 1)
 				)
 			)
@@ -23116,7 +23146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee5335ba-a110-4c7d-9abd-9e5f79aff0d9")
-		(property "Reference" "STEP.U2"
+		(property "Reference" "A2.U1_2"
 			(at 137.668 37.592 0)
 			(effects
 				(font
@@ -23201,7 +23231,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.U2")
+					(reference "A2.U1_2")
 					(unit 1)
 				)
 			)
@@ -23348,7 +23378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1273e47-0306-45ae-b5eb-c91981c42ed2")
-		(property "Reference" "STEP.U1"
+		(property "Reference" "A2.U1_1"
 			(at 69.088 37.592 0)
 			(effects
 				(font
@@ -23433,7 +23463,7 @@
 		(instances
 			(project ""
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "STEP.U1")
+					(reference "A2.U1_1")
 					(unit 1)
 				)
 			)
@@ -23448,7 +23478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5b70474-180a-4642-b480-c5b912712294")
-		(property "Reference" "PSU.J11"
+		(property "Reference" "A4.J11"
 			(at 139.7 186.436 0)
 			(effects
 				(font
@@ -23513,7 +23543,7 @@
 		(instances
 			(project ""
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.J11")
+					(reference "A4.J11")
 					(unit 1)
 				)
 			)
@@ -23859,7 +23889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fed4ba6a-ef8a-4fe2-9e63-e3d73a22d1ab")
-		(property "Reference" "PSU.PS12"
+		(property "Reference" "A4.PS12"
 			(at 125.73 227.33 0)
 			(effects
 				(font
@@ -23921,7 +23951,7 @@
 		(instances
 			(project "RDX"
 				(path "/ae012dcf-7a16-4b89-bb28-202da592e0ac"
-					(reference "PSU.PS12")
+					(reference "A4.PS12")
 					(unit 1)
 				)
 			)

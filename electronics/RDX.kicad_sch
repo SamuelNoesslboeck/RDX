@@ -7,7 +7,7 @@
 	(title_block
 		(title "RDX - Robot Driver Mk.X")
 		(date "2026-04-01")
-		(rev "1.2.0")
+		(rev "1.2.1")
 		(company "CornerLab")
 		(comment 1 "Universal Robot Driver")
 		(comment 2 "400W")
@@ -9078,7 +9078,7 @@
 		)
 		(uuid "d1feb538-633a-4362-8652-0127a018f66b")
 	)
-	(text "A8 - Input panel"
+	(text "A8 - Control panel"
 		(exclude_from_sim no)
 		(at 191.77 203.454 0)
 		(effects

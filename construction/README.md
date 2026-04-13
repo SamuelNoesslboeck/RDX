@@ -1,0 +1,23 @@
+### External parts used
+
+- **ps1__s600-36**
+  - Author: Mikhail Shuvalov
+  - Source: <https://grabcad.com/library/s-600-36-1/details?folder_id=6509878>
+- **a3.u1__rpi4_simplified**
+  - Author: CADNurd
+  - Source: <https://grabcad.com/library/raspberry-pi-4-simplified-single-solid-1>
+- **a5.u1__l298n**
+  - Author: faouzi Maddouri
+  - Source: <https://grabcad.com/library/l298n-22>
+- **a7.j1__gx12-2**
+  - Author: Nelson Stoldt
+  - Source: <https://grabcad.com/library/gx12-aviation-connectors-2-3-4-5-6-and-7-pin-1>
+- **a8.j1__anderson_sb50**
+  - Author: SG
+  - Source: <https://grabcad.com/library/electric-vehicle-parts-anderson-connector-sb50>
+- **a10.j1__gx16-2**
+  - Author: Isaac Marino Bavaresco
+  - Source: <https://grabcad.com/library/gx-16-connector-2-pins-1>
+- **a11.j1__gx16-4**
+  - Author: Isaac Marino Bavaresco
+  - Source: <https://grabcad.com/library/gx-16-connector-4-pins-1>

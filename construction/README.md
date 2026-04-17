@@ -15,6 +15,9 @@
 - **a8.j1__anderson_sb50**
   - Author: SG
   - Source: <https://grabcad.com/library/electric-vehicle-parts-anderson-connector-sb50>
+- **a9.u1__lcd2004**
+  - Author: Vladislav Maslov
+  - Source: <https://grabcad.com/library/lcd-2004-20x04-20x4-with-i2c-adapter-1>
 - **a10.j1__gx16-2**
   - Author: Isaac Marino Bavaresco
   - Source: <https://grabcad.com/library/gx-16-connector-2-pins-1>

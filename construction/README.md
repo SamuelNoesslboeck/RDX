@@ -7,8 +7,8 @@
   - Author: CADNurd
   - Source: <https://grabcad.com/library/raspberry-pi-4-simplified-single-solid-1>
 - **a5.u1__l298n**
-  - Author: faouzi Maddouri
-  - Source: <https://grabcad.com/library/l298n-22>
+  - Author: Taehwan Kim
+  - Source: <https://grabcad.com/library/h-bridge-l298n-1>
 - **a7.j1__gx12-2**
   - Author: Nelson Stoldt
   - Source: <https://grabcad.com/library/gx12-aviation-connectors-2-3-4-5-6-and-7-pin-1>
